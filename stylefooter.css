@@ -1,0 +1,139 @@
+.footer {
+    background-color: #f1f1f1;
+padding:90px 0;
+
+
+}
+
+.footer-container{
+
+    max-width: 1300px;
+    margin-top: auto;
+    margin-left: 200px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.logo{
+    width: 180px;
+    margin-left: 20px;
+
+}
+
+.social-media{
+    margin:20px 0;
+}
+
+.social-media a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration:none;
+    transition: .3s linear;
+}
+
+.social-media a:hover{
+    color: #fc5c65;
+}
+
+.right-col h1{
+    align-self: center;
+    font-size:26px;
+}
+
+.border{
+    width:100px;
+    height: 4px;
+    background: #fc5c65;
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-left: 40%;
+}
+.txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+    margin-bottom: 10px;
+}
+
+.btnfooter{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #fc5c65;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: opacity .3s linear;    
+}
+
+.btnfooter:hover{
+    opacity: .7;
+}
+
+
+
+@media screen and (max-width:700px){
+    .btn{
+        margin:0;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:960px){
+    .footer-container{
+        max-width: 600px;
+    }
+    .right-col{
+        width: 100%;
+        margin-bottom: 60px;
+        text-align: center;
+        
+    }
+    .left-col{
+        width: 100%;
+        text-align: center;
+        
+    }
+}
+p3{
+    color: #293043;
+    margin-left: 40%;
+}
+p3{
+    color: #293043;
+    margin-left: 40%;
+    text-align: center;
+}
+h3{
+    color: #293043;
+    margin-left: 40%;
+}
+
+
+
+selection-default{
+    text-align: center;
+    top:70%;
+    left:50%;
+    color: #293043;
+}
